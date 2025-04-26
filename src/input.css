@@ -5,7 +5,7 @@
     --color-brightRedSupLight: hsl(12, 88%, 95%)  ;
     --color-darkBlue: hsl(228, 39%, 23%)  ;
     --color-darkgrayishBlue: hsl(227, 12%, 61%)  ;
-    --color-darkgrayishBlue: hsl(233, 12%, 13%)  ;
+    --color-veryDarkBlue: hsl(233, 12%, 13%)  ;
     --color-veryPaleBlue: hsl(13, 100%, 96%)  ;
     --color-veryLightGray: hsl(0, 0%, 98%)  ;
     
@@ -20,30 +20,36 @@
         background-image: url('/dist/images/background.svg');
         background-repeat: no-repeat;
         background-size :800px;
-        background-position : 130% -10%;
+        background-position : 140% -190px;
       
     
     }
     
-    #team{
+    #Simplify{
       background-image: url('/dist/images/background\ -\ Copy.svg');
         background-repeat: no-repeat;
-        background-size: 600;  
+         background-size: 600; 
+         background-position: 100% -40px;  
     }
+
     @media (max-width: 576px){
       body{
         background-position: 50px -50px;
-        background-size: 500px;
+        background-size: 600px;
         
       }
-      
-      #team{
-        background-image: url("/dist/images/background.svg");
-      }
-         
-    }
+   
     
-      
+      #Simplify{
+        background-image: url('/dist/images/background\ -\ Copy.svg');
+        background-repeat: no-repeat;
+        
+      }
+    }
+   
+    
+  
+  
      /* Hamburger Menu */
      .hamburger{
       cursor: pointer;
